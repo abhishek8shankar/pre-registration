@@ -1,7 +1,7 @@
 
 -- Foreign Key Constraints Same DB/Schema tables.
 
--- FOREIGN KEY CONSTRAINTS : mosip_prereg database/schema.
+-- FOREIGN KEY CONSTRAINTS : :mosipdbname database/schema.
 
 -- object: fk_appldoc_appldem | type: CONSTRAINT --
 -- ALTER TABLE prereg.applicant_document DROP CONSTRAINT IF EXISTS fk_appldoc_appldem CASCADE;

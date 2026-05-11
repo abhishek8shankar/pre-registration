@@ -32,4 +32,4 @@ CREATE SEQUENCE prereg.batch_job_seq MAXVALUE 9223372036854775807 NO CYCLE;
 -- grants to access all sequences
 GRANT usage, SELECT ON ALL SEQUENCES 
    IN SCHEMA prereg
-   TO prereguser;
+   TO :dbuname;
